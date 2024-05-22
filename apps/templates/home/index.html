@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Primary Meta Tags -->
+<title>
+    Nutriwizard: Tus dietas personalizadas
+</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="title" content="Pixel - Free Bootstrap 5 UI Kit">
+<meta name="author" content="Themesberg">
+<meta name="description" content="Open source and free Bootstrap 5 UI Kit featuring 80 UI components, 5 example pages, and a Gulp and Sass workflow.">
+<link rel="canonical" href="https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://demo.themesberg.com/pixel-bootstrap-5-ui-kit">
+<meta property="og:title" content="Pixel - Free Bootstrap 5 UI Kit">
+<meta property="og:description" content="Open source and free Bootstrap 5 UI Kit featuring 80 UI components, 5 example pages, and a Gulp and Sass workflow.">
+<meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://demo.themesberg.com/pixel-bootstrap-5-ui-kit">
+<meta property="twitter:title" content="Pixel - Free Bootstrap 5 UI Kit">
+<meta property="twitter:description" content="Open source and free Bootstrap 5 UI Kit featuring 80 UI components, 5 example pages, and a Gulp and Sass workflow.">
+<meta property="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicon/Nwizard32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon/Nwizard16.png">
+<link rel="manifest" href="/static/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/static/assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Fontawesome -->
+<link type="text/css" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+<!-- Pixel CSS -->
+<link type="text/css" href="/static/assets/css/pixel.css" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    {% include 'includes/navigation.html' %}
+
+    <main>
+
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="bootstrap-big-icon d-none d-lg-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="700" height="622" class="d-block my-1"
+                                viewBox="0 0 118 94" role="img">
+                                <title>Nutriwizard</title>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <h1 class="fw-bolder display-2">
+                            Nutriwizard
+                        </h1>
+                        <h2 class="lead fw-normal text-muted mb-4 px-lg-10">
+                            Tu recomendador de dietas personalizadas
+                        </h2>
+                        <!-- Button Modal -->
+                        <div class="d-flex justify-content-center align-items-center mb-5">
+                            <a href="#components" class="btn btn-tertiary mb-3 mt-2 me-2 me-md-3 animate-up-2"><span
+                                    class="fas fa-th-large me-2"></span> <span class="d-none d-md-inline">Explora nuestros
+                                    planes</span> <span class="d-md-none">Components</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2"><svg class="fill-white"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+                    <path d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+                </svg></figure>
+        </section>
+
+        <div class="section py-0">
+            <div class="container mt-n10 mt-lg-n12 z-2">
+                 <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <div id="Carousel2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="/static/assets/img/carousel/comida1.jpg" alt="First">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="/static/assets/img/carousel/comida2.jpg" alt="Second ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="/static/assets/img/carousel/comida3.png" alt="Third ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="/static/assets/img/carousel/comida4.png" alt="cuatro">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#Carousel2" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#Carousel2" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section -->
+        </div>
+ 
+        <div class="section section-sm pb-0 mb-n4" id="components">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h3 class="text-center">Información</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--End of Title section-->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 col-lg-8">
+                        <!--Accordion-->
+                        <div class="accordion" id="accordionExample1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        ¿Por qué es importante una dieta personalizada?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <strong>Una dieta personalizada es crucial </strong>porque cada persona tiene necesidades nutricionales únicas basadas en su edad, género, nivel de actividad, salud general y objetivos específicos. 
+                                        Al optar por un plan personalizado, recibirás recomendaciones alimenticias que se adaptan a tu estilo de vida y preferencias, ayudándote a alcanzar tus metas de salud de manera más eficiente y sostenible. 
+                                        Además, una dieta personalizada puede prevenir enfermedades, mejorar tu energía y rendimiento diario, y asegurarte de que estás obteniendo todos los nutrientes que tu cuerpo necesita. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Beneficios de una dieta personalizada
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <strong>Mejora de la salud general:</strong> Adaptación a condiciones médicas específicas y prevención de enfermedades.<br>
+                                        <br>
+                                      <strong>Optimización de energía y rendimiento:</strong> Ajuste de la dieta para niveles óptimos de energía y rendimiento físico y mental.<br>
+                                      <br>
+                                      <strong>Control de peso efectivo:</strong> Planes que ayudan a alcanzar y mantener el peso ideal.<br>
+                                      <br>
+                                      <strong>Mejora del bienestar mental:</strong> Relación entre nutrición y salud mental, incluyendo reducción del estrés y mejoría en el estado de ánimo.<br>
+                                      <br>
+                                      <strong>Educación y hábitos saludables:</strong> Fomentar una relación saludable con la comida y enseñar hábitos alimenticios sostenibles.<br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ¿Que obtendrás con nuestros planes?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra est et tortor aliquam maximus. In risus odio, lacinia malesuada tempus in, 
+                                        tincidunt id nibh. Ut vel felis nibh. Ut sit amet imperdiet ligula, sit amet cursus tellus. Vestibulum quis felis at sapien tempor sollicitudin. 
+                                        Vestibulum molestie, est nec malesuada pharetra, nibh nisl blandit metus, at ultrices ligula orci vitae sem. Vestibulum posuere, leo sit amet sagittis scelerisque, a
+                                        nte metus bibendum justo, sed pulvinar turpis elit iaculis quam. Sed ac urna eget lorem lacinia gravida. Donec hendrerit rutrum porttitor.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of Accordion-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+                    
+                </div>
+            </div>
+        </div>
+
+       
+        <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row">
+                
+               
+
+        <div class="section section-sm pb-0 mb-n4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h3 class="text-center">Tabla alimenticia</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- End of Hero -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        
+                        <div class="mb-5">
+                            
+                        <div class="mb-5">
+                            
+                        <div class="mb-5">
+                            <div class="mb-4">
+                                <span class="h5">Lunes</span>
+                            </div>
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th scope="col" id="desayuno">Desayuno</th>
+                                        <th scope="col" id="mmañana">Media mañana</th>
+                                        <th scope="col" id="almuerzo">Almuerzo</th>
+                                        <th scope="col" id="merienda">Merienda</th>
+                                        <th scope="col" id="cena">Cena</th>
+                                        <th scope="col" id="snacks">Snacks</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" id="firstyear2" rowspan="2">Pescado blanco a la plancha <br>
+                                            con verduras al vapor y arroz integral</th>
+                                            <th scope="row" id="firstyear2" rowspan="2">Pollo al horno con camote asado y espárragos</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Ensalada de atún con lechuga romana, tomate y pepino</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Yogur griego con fruta fresca y un puñado de nueces</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Avena con leche de almendras y canela</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Yogur griego con fruta fresca y un puñado de nueces</th>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="mb-4">
+                                <span class="h5">Martes</span>
+                            </div>
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th scope="col" id="desayuno">Desayuno</th>
+                                        <th scope="col" id="mmañana">Media mañana</th>
+                                        <th scope="col" id="almuerzo">Almuerzo</th>
+                                        <th scope="col" id="merienda">Merienda</th>
+                                        <th scope="col" id="cena">Cena</th>
+                                        <th scope="col" id="snacks">Snacks</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" id="firstyear2" rowspan="2">Plátano con un puñado de almendras</th>
+                                            <th scope="row" id="firstyear2" rowspan="2">Pescado blanco a la plancha con verduras al vapor y arroz integral</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Huevos escalfados sobre tostada integral con aguacate</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Chía pudding con leche de almendras y fruta fresca</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pollo al horno con camote asado y espárragos</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pescado blanco a la plancha con quinua y brócoli</th>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="mb-4">
+                                <span class="h5">Miercoles </span>
+                            </div>
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th scope="col" id="desayuno">Desayuno</th>
+                                        <th scope="col" id="mmañana">Media mañana</th>
+                                        <th scope="col" id="almuerzo">Almuerzo</th>
+                                        <th scope="col" id="merienda">Merienda</th>
+                                        <th scope="col" id="cena">Cena</th>
+                                        <th scope="col" id="snacks">Snacks</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" id="firstyear2" rowspan="2">Manzana con queso cottage bajo en grasa</th>
+                                            <th scope="row" id="firstyear2" rowspan="2">Pescado blanco a la plancha con verduras al vapor y arroz integral</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pepino con hummus</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Frutos secos sin sal</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Avena con leche de almendras y canela</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pepino con hummus</th>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="mb-4">
+                                <span class="h5">Jueves</span>
+                            </div>
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th scope="col" id="desayuno">Desayuno</th>
+                                        <th scope="col" id="mmañana">Media mañana</th>
+                                        <th scope="col" id="almuerzo">Almuerzo</th>
+                                        <th scope="col" id="merienda">Merienda</th>
+                                        <th scope="col" id="cena">Cena</th>
+                                        <th scope="col" id="snacks">Snacks</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" id="firstyear2" rowspan="2">Frutos secos sin sal</th>
+                                            <th scope="row" id="firstyear2" rowspan="2">Manzana con mantequilla de almendras</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Yogur griego natural con plátano y nueces</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pollo al horno con camote asado y espárragos</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Yogur griego natural con plátano y nueces</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Plátano con un puñado de almendras</th>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="mb-4">
+                                <span class="h5">Viernes</span>
+                            </div>
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th scope="col" id="desayuno">Desayuno</th>
+                                        <th scope="col" id="mmañana">Media mañana</th>
+                                        <th scope="col" id="almuerzo">Almuerzo</th>
+                                        <th scope="col" id="merienda">Merienda</th>
+                                        <th scope="col" id="cena">Cena</th>
+                                        <th scope="col" id="snacks">Snacks</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" id="firstyear2" rowspan="2">Tostada integral con aguacate y huevo duro</th>
+                                            <th scope="row" id="firstyear2" rowspan="2">Frutos secos sin sal</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pollo al curry con verduras salteadas y arroz integral</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Yogur griego natural con plátano y nueces</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Pescado blanco a la plancha con verduras al vapor y arroz integral</th>
+                                                <th scope="row" id="firstyear2" rowspan="2">Ensalada de atún con lechuga romana, tomate y pepino</th>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-5">
+            <div class="card shadow mb-6">
+                <div class="card-body px-5 py-5 text-center text-md-left">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Contactanos!</h2>
+                            <p class="mb-0">
+                                Si necesitas más información sobre nuestros productos o servicios, por favor contactanos y te daremos toda la información.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-right">
+                            <a href="/contact.html" class="btn btn-primary">
+                                <span class="me-1">
+                                    <span class="fas fa-headphones"></span>
+                                </span>
+                                Contactanos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    {% include 'includes/footer.html' %}
+
+    {% include 'includes/scripts.html' %}
+
+</body>
+</html>

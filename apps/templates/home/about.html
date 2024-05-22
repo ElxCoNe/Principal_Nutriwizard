@@ -1,0 +1,123 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Nuestro equipo {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <section class="section-header bg-secondary text-white">
+            <div class="container">
+               <div class="row justify-content-between align-items-center">
+                  <div class="col-12 col-md-7 col-lg-6 text-center text-md-left">
+                        <h1 class="display-2 mb-4">Un servicio <br class="d-none d-md-inline">para mejorar la vida de las personas</h1>
+                        <p class="lead mb-4 text-muted">Nutriwizard cuenta con un gran equipo de desarrolladores que entienden las necesidades alimenticias de las personas.</p>
+                    </div>
+                  <div class="col-12 col-md-5 d-none d-md-block text-center"><img src="/static/assets/img/illustrations/about-illustration.svg" alt=""></div>
+               </div>
+            </div>
+            <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2">
+               <svg class="fill-white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
+                  <path d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"></path>
+               </svg>
+            </figure>
+        </section>
+        <!-- End of Hero section -->
+
+        <!-- Section -->
+        <section class="section section-md">
+            <div class="container">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-md-6 col-xl-6 mb-5">
+                        <img class="organic-radius img-fluid" src="/static/assets/img/sections/about-us-1.jpg" alt="Office Desk">
+                    </div>
+                    <div class="col-md-6 col-xl-5 text-center text-md-left">
+                        <h2 class="h1 mb-5">Nacidos en la Luis Amigó.</h2>
+                        <p class="lead">Nuestro equipo nació dentro de la universidad católica Luis Amigó, nos hicimos compañeros, amigos y colegas. Dentro de la materia, trabajo de grado, decidimos empezar a desarrollar todo lo necesario para llevar a cabo nuestro proyecto “Nutriwizard” dando solución a un problema muy común e importante como lo es la nutrición de las personas, acompañados por un experto, se dio vida a este gran proyecto.</p>          
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of section -->
+        <!-- Section -->
+        <section class="section section-lg">
+            <div class="container">
+                <div class="row mb-5 mb-lg-6">
+                    <div class="col-12 col-md-9 col-lg-8 text-center mx-auto">
+                        <h2 class="h1 mb-4"> Un divertido &amp; Creativo equipo</h2>
+                        <p class="lead">Un gran equipo de amigos y futuros colegas.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-5 mb-lg-6">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-gray-300">
+                            <img src="/static/assets/img/team/Marlon.png" height="406" width="345" class="card-img-top rounded-top" alt="Joseph Portrait">
+                            <div class="card-body">
+                                <h3 class="h4 card-title mb-2">Marlon Gutierrez</h3>
+                                <span class="card-subtitle text-gray fw-normal">Desarrollador</span>
+                                <p class="card-text my-3">"Sin límites, sin fronteras, todo es posible... "</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-gray-300">
+                            <img src="/static/assets/img/team/Set.png" height="406" width="345"  card-img-top rounded-top" alt="Bonnie portrait">
+                            <div class="card-body">
+                                <h3 class="h4 card-title mb-2">Set Cardona Correa</h3>
+                                <span class="card-subtitle text-gray fw-normal">Desarrollador</span>
+                                <p class="card-text my-3">DNA</p>                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow border-gray-300">
+                            <img src="/static/assets/img/team/Milo.jpeg" height="406" width="345" class="card-img-top rounded-top" alt="Jose Avatar">
+                            <div class="card-body">
+                                <h3 class="h4 card-title mb-2">Juan Camilo Hernández</h3>
+                                <span class="card-subtitle text-gray fw-normal">Desarrollador</span>
+                                <p class="card-text my-3">Estudiando</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <!-- End of section -->
+
+    </main>
+
+    <section class="section py-0">
+        <div class="container z-2">
+        <div class="row position-relative justify-content-center align-items-cente">
+            <div class="col-12">
+                <!-- Card -->
+                <div class="card border-light px-4 py-1">
+                    <div class="card-body text-center text-md-left">
+                        <div class="row align-items-center">
+                           
+                            <div class="row align-items-center">
+                                <img  width="500" src="/static/assets/img/illustrations/Boys.png" alt="bois">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    {% include 'includes/footer-about.html' %}
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
